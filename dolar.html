@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotação</title>
+    <script src="dolar.js" defer></script>
+    <link rel="stylesheet" href="dolar.css">
+</head>
+<body>
+     
+    <div>
+        <h2>Cotação do dólar</h2>
+        
+        <button onclick="cotacao()">Ver cotação</button>
+        <p id="valorDolar"></p>
+        
+        <label>Valor em real</label>
+        <input type="number" id="real">
+        <button onclick="realParaDolar()">Converter</button>
+        <h2 id="resultadoReal"></h2>
+        
+        <label>Valor em dólar</label>
+        <input type="number" id="dolar">
+        <button onclick="dolarParaReal()">Converter</button>
+        <h2 id="resultadoDolar"></h2>
+    </div>
+        
+</body>
+</html>
