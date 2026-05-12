@@ -1,0 +1,22 @@
+
+div{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(167, 167, 167);
+    margin-left: 700px;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px rgb(207, 207, 207) solid;
+
+}
+
+h1{
+    justify-content: center;
+    text-align: center;
+
+}
+
+body{
+    background-color: grey;
+}

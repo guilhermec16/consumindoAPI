@@ -5,28 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="clima.js"></script>
+    <link rel="stylesheet" href="clima.css">
 </head>
 
 <body>
 
-    <Label class="Cidade">Cidade</Label>
-    <input type="text" id="Cidade">
-
-    <h3>Temperatura</h3>
-    <p id="temperatura"></p>
-
-    <h3>temperatura Maxima</h3>
-    <p id="tempMax"></p>
-
-    <h3>temperatura Minima</h3>
-    <p id="tempMin"></p>
-
-    <h3>Veolocidade do vento</h3>
-    <p id="vento"></p>
-
-    <h3>Umidade DO ar</h3>
-    <p id="umidade"></p>
-    <button onclick="clima()">Exibir Informções</button>
+    <div>        
+        <Label class="cidade">Cidade</Label>
+        <input type="text" id="cidade">
+        
+        <h3>Temperatura:</h3>
+        <p id="temperatura"></p>
+        
+        <h3>temperatura Maxima:</h3>
+        <p id="tempMax"></p>
+        
+        <h3>temperatura Minima:</h3>
+        <p id="tempMin"></p>
+        
+        <h3>Veolocidade do vento:</h3>
+        <p id="vento"></p>
+        
+        <h3>Umidade DO ar:</h3>
+        <p id="umidade"></p>
+        <button onclick="clima()">Exibir Informções</button>
+    </div>
 
 </body>
 
