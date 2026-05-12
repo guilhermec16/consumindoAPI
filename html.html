@@ -10,23 +10,31 @@
 </head>
 <body>
 
-    <h1>Exibir endereço</h1>
+    <h1>Consumindo Api</h1>
 
-    <label for="cep">CEP</label>
-    <input type="text" id="cep" aria-placeholder="Exemplo: 67777-067 "><br>
-    <button onclick="consumindoapi()">Enviar</button>
-    <hr>    
+    <h2>Imagens De Cachorros</h2>
+    <img src="" alt="Imagens de Dogs" id="dog">
+    <button onclick="buscarDog()">Mostrar Dog</button><br>
+    <hr>
+    
+   <h2>Cotação do dólar</h2>
 
-    <label for="rua">Rua</label>
-    <input type="text" id="rua" aria-placeholder="Informe sua rua" readonly><br>
+    <button onclick="cotacao()">Ver cotação</button>
+    <p id="valorDolar"></p>
 
-    <label for="estado">Estado</label>
-    <input type="text" id="estado" readonly><br>
+    <label>Valor em real</label>
+    <input type="number" id="real">
+    <button onclick="realParaDolar()">Converter</button>
 
-    <label for="cidade">Cidade</label>
-    <input type="text" id="cidade" readonly><br>
+    <h2 id="resultadoReal"></h2>
 
+    <label>Valor em dólar</label>
+    <input type="number" id="dolar">
+    <button onclick="">Converter</button>
 
+    <h2 id="resultadoDolar"></h2>
+
+    <hr>
 
 </body>
 
